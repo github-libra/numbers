@@ -4,6 +4,8 @@
 	 function mysqldb()
 	{
 		# code...
+		// add a line of comment for test.
+		asdf;
 		 $connect = mysql_pconnect("localhost","root");
 		if (!$connect)
 		  {
